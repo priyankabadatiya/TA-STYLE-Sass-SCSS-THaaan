@@ -1,0 +1,19 @@
+.hero-error {
+  background-color: #dc3c45;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.hero-error h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.hero-error p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+/*# sourceMappingURL=error.css.map */

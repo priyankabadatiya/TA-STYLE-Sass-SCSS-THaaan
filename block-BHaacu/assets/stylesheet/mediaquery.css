@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  img {
+    width: 100%;
+  }
+  .flex-100 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+  .flex-48,
+  .flex-30,
+  .flex15,
+  .flex-20,
+  .flex-40,
+  .flex-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin: 1rem 0;
+  }
+  .header {
+    padding: 3rem 0;
+  }
+  .links {
+    display: none;
+  }
+  .links ul.flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 100vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .links li a {
+    color: #fff;
+  }
+  .bars {
+    display: inline-block;
+    cursor: pointer;
+  }
+  #toggle:checked ~ .links {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.541);
+  }
+  #toggle:checked ~ .bars .fa-bars:before {
+    content: "\f00d";
+    position: absolute;
+    top: 3rem;
+    right: 2.5rem;
+    z-index: 999;
+    font-size: 2rem;
+    color: white;
+  }
+  .sub-list li a {
+    color: black;
+  }
+  .map .flex-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .icons {
+    margin: 1rem auto;
+  }
+  .hero-img {
+    background-size: cover;
+    background-position: 70% top;
+  }
+  .cta-section div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .cta-section .cta-btn {
+    display: block;
+    margin-top: 2rem;
+  }
+  .icons li {
+    margin: 1rem;
+  }
+  .sub-header {
+    text-align: center;
+  }
+  .sub-header span {
+    display: inline-block;
+  }
+  form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .best-awarded {
+    padding: 2rem 1rem;
+  }
+}
+/*# sourceMappingURL=mediaquery.css.map */

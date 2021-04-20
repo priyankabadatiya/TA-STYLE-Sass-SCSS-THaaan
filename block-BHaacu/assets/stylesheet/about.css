@@ -1,0 +1,75 @@
+.about-hero {
+  background-color: #dc3c45;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.about-hero h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.about-hero p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.settings-image img {
+  width: 100%;
+}
+
+.team {
+  background-color: #f8f9fa;
+}
+
+.team .team img {
+  width: 100%;
+  display: block;
+}
+
+.team .desp {
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+  padding: 1rem 0;
+}
+
+.team p {
+  font-size: 1.3rem;
+}
+
+.team span {
+  color: #dc3c45;
+  font-size: 10px;
+}
+
+.settings .column {
+  margin-bottom: 1.5rem;
+}
+
+.settings .column i {
+  margin-right: 1.5rem;
+  font-size: 3rem;
+}
+
+.settings .column h6 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.settings .column p {
+  margin: 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .solutions .btn {
+    width: 50%;
+    color: white;
+    background-color: #dc3c45;
+  }
+}
+/*# sourceMappingURL=about.css.map */

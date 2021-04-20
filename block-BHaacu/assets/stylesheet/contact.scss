@@ -1,0 +1,116 @@
+.hero-contact {
+    background-color: #dc3c45;
+    padding: 3rem 0;
+    text-align: center;
+    h2 {
+        font-size: 3rem;
+        color: white;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+    p {
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+    }
+}
+
+input {
+    margin: 1rem 0;
+    padding: 8px;
+    border-radius: 5px;
+    outline: 0;
+}
+
+textarea {
+    padding: 7rem;
+    border-radius: 5px;
+}
+
+.map {
+    background-color: #f8f9fa;
+    .btn {
+        margin: 1rem auto;
+        display: block;
+        text-align: center;
+        background-color: #dc3c45;
+        color: white;
+        padding: 0.86rem;
+        border-radius: 50px;
+    }
+}
+
+.contact-info {
+    background-color: #f8f9fa;
+}
+
+.contact-info {
+    .icon-box {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        // border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #b1b1b1;
+        margin: 2rem auto;
+    }
+    a {
+        margin: 1rem auto;
+        display: block;
+        text-align: center;
+        color: #dc3c45;
+        padding: 0.66rem 0;
+    }
+    i {
+        font-size: 2.4rem;
+    }
+}
+
+.address {
+    p {
+        text-align: center;
+        font-weight: bold;
+        margin: 0.73rem 0;
+    }
+    span {
+        text-align: center;
+        margin: 0.33rem 0;
+    }
+}
+
+.map .flex-wrap {
+    flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .map .flex-wrap {
+        flex-wrap: wrap;
+    }
+    textarea {
+        padding: 5rem;
+    }
+    .col-1 {
+        flex: 0 1 100%;
+        flex-.col-1 {
+            flex: 0 1 100%;
+            flex-direction: column;
+        }
+        .col-2,
+        .col-3 {
+            flex: 0 1 40%;
+        }
+        .col-4 {
+            flex: 0 1 50%;
+        }
+        direction: column;
+    }
+    .col-2,
+    .col-3 {
+        flex: 0 1 40%;
+    }
+    .col-4 {
+        flex: 0 1 50%;
+    }
+}

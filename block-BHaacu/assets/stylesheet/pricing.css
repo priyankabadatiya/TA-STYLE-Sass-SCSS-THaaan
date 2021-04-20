@@ -1,0 +1,82 @@
+.hero-pricing {
+  background-color: #dc3c45;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.hero-pricing h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.hero-pricing p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.plans-section {
+  background-color: #f8f9fa;
+}
+
+.plans-section li {
+  margin-bottom: 1.4rem;
+}
+
+.cols {
+  -webkit-box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+  padding: 3rem 1.2rem;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid gray;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.box h5 {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cols h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.cols .number {
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cols .number::before {
+  content: "$";
+}
+
+.cols .includes {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.cols .btn {
+  display: inline-block;
+  border: 1px solid #dc3c45;
+  border-radius: 50px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.64rem 1rem;
+}
+
+.cols .active {
+  background-color: #dc3c45;
+  color: white;
+}
+/*# sourceMappingURL=pricing.css.map */
